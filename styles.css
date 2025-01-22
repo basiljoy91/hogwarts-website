@@ -1,0 +1,36 @@
+/* Card Container Styling */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensures uniform card height */
+  }
+  
+  /* Uniform Image Styling */
+  .card img {
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Prevents distortion of images */
+    border-radius: 10px; /* Optional rounded corners */
+  }
+  
+  /* Card Body Styling */
+  .card-body {
+    flex-grow: 1; /* Ensures the body takes available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space out title, description, and buttons */
+    text-align: center; /* Center-align text and buttons */
+    padding: 1rem;
+  }
+  
+  /* Button Styling */
+  .card-body a {
+    margin-top: 10px;
+  }
+  
+  /* Grid Column Styling for Consistency */
+  .col-md-4.col-6 {
+    display: flex; /* Makes cards stretch to match heights */
+    flex-grow: 1;
+  }
+  
