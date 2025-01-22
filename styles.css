@@ -8,7 +8,7 @@
   
   /* Uniform Image Styling */
   .card img {
-    height: 200px; /* Fixed height for all images */
+    height: 400px; /* Fixed height for all images */
     object-fit: cover; /* Prevents distortion of images */
     border-radius: 10px; /* Optional rounded corners */
   }
